@@ -4,9 +4,9 @@ Grădina Inteligentă este un sistem automatizat de irigații implementat și do
 
 ### Reportaje
 
-https://tvrinfo.ro/echipa-de-robotica-a-colegiului-na-ional-mihai-viteazul-din-ploie-ti-a-realizat-un-sistem-inteligent-de-iriga-ii-folosit-la-gradina-botanica-din-bascov_926211/
-https://fb.watch/pqLYnkCqqx/
-https://www.observatorulph.ro/social/2678234-elevii-cnvm-ploiesti-au-introdus-un-sistem-inteligent-de-irigatii-la-gradina-botanica-bucov
-https://republikanews.ro/sistem-inteligent-de-irigatii-pentru-gradina-botanica-video
-https://youtu.be/NUcoy_RShCg?feature=shared
-https://stirileprotv.ro/video/cum-a-fost-transformata-gradina-botanica-bucov-intr-o-sera-inteligenta-inovatia-lansata-de-elevii-unei-echipe-de-robotica/62328319/   
+* https://tvrinfo.ro/echipa-de-robotica-a-colegiului-na-ional-mihai-viteazul-din-ploie-ti-a-realizat-un-sistem-inteligent-de-iriga-ii-folosit-la-gradina-botanica-din-bascov_926211/
+* https://fb.watch/pqLYnkCqqx/
+* https://www.observatorulph.ro/social/2678234-elevii-cnvm-ploiesti-au-introdus-un-sistem-inteligent-de-irigatii-la-gradina-botanica-bucov
+* https://republikanews.ro/sistem-inteligent-de-irigatii-pentru-gradina-botanica-video
+* https://youtu.be/NUcoy_RShCg?feature=shared
+* https://stirileprotv.ro/video/cum-a-fost-transformata-gradina-botanica-bucov-intr-o-sera-inteligenta-inovatia-lansata-de-elevii-unei-echipe-de-robotica/62328319/   
