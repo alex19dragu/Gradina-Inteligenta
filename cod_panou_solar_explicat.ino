@@ -28,7 +28,7 @@ int d_state = A3;
 int buzzer = 6;  //declarare pin buzzer
 int lr_servopin = 9; //declarare pin control servo axa X
 int ud_servopin = 10; //declarare pin control servo axa Y 
-int buttonPin = 2;
+int buttonPin = 2; //declarare pin button
 
 int error = 15; //declarare eroare
 int accuracy = 1; //declarare acuratete
