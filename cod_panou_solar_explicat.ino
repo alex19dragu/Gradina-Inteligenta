@@ -28,6 +28,7 @@ int d_state = A3;
 int buzzer = 6;  //declarare pin buzzer
 int lr_servopin = 9; //declarare pin control servo axa X
 int ud_servopin = 10; //declarare pin control servo axa Y 
+int buttonPin = 2;
 
 int error = 15; //declarare eroare
 int accuracy = 1; //declarare acuratete
@@ -145,18 +146,10 @@ void servo(){
 }
 
 void LCD() {
-  char str1[5];
-  char str2[2];
-  char str3[2];
-  dtostrf(light, -5, 0, str1);
-  dtostrf(temperature, -2, 0, str2);
-  dtostrf(humidity, -2, 0, str3);
-  //afisarea intensitatii luminii, temperaturii si umiditatii aerului sub forma de siruri de caractere
-
   lcd.setCursor(0, 0);
   lcd.print("Light:");
   lcd.setCursor(6, 0);
-  lcd.print(str1);
+  lcd.print(light);
   lcd.setCursor(11, 0);
   lcd.print("lux");
   //afisare intensitate lumina
@@ -198,7 +191,10 @@ void adjust_accuracy() {
   delay(10);
   //redare sunet prin buzzer
   
+  if (!digitalRead(buttonPin))
+  {
   if(accuracy < 5) accuracy++;
   else accuracy = 1;
   //modificare acuratete servouri
+  }
 }
