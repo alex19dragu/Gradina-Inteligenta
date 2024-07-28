@@ -38,13 +38,19 @@ const int valva2 = 11;
 const int valva3 = 10;
 //declarare valve
 
+const int fan1 = 7;
+const int fan2 = 6;
+//declarare pini ventilator
+
 void setup() {
   Serial.begin(9600);
   pinMode(valva1, OUTPUT);
   pinMode(valva2, OUTPUT);
   pinMode(valva3, OUTPUT);
+  pinMode(fan1, OUTPUT);
+  pinMode(fan2, OUTPUT);
   dht.begin();
-  //initializare valve si senzor de umiditate si temperatura aer
+  //initializare valve, ventilator si senzor de umiditate si temperatura aer
 
   lcd.init();
   lcd.backlight();
@@ -141,13 +147,20 @@ void loop() {
   lcd.clear();
   //afisare umiditate aer
 
-  if (h > 75) {
-    digitalWrite(valva3, HIGH);
+  if (h > 70)
+  {
+    digitalWrite(fan2, HIGH);
+    digitalWrite(fan1, LOW);
     lcd.setCursor(0, 1);
-    lcd.print("Valva3Pornit");
-    //daca umiditatea aeruui e mai mare decat 75%, un ventilator se porneste  
+    lcd.print("FanPornit");
+    //daca umiditatea aeruui e mai mare decat 70%, un ventilator se porneste  
   }
-  else digitalWrite(valva3, LOW); //altfel se inchide
+  else 
+  {
+    digitalWrite(fan2, LOW);
+    digitalWrite(fan1, LOW);
+    //altfel se inchide
+  } 
   delay(3000);
   lcd.clear();
 
